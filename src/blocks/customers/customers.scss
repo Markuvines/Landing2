@@ -1,0 +1,9 @@
+.customers {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    margin: 0 5px;
+  }
+}

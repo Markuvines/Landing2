@@ -1,0 +1,7 @@
+$width :25.06944444444444%;
+.header__menu {
+  margin-right: $width;
+  @media (max-width:940px) {
+    margin-right: calc($width/3) ;
+  }
+}

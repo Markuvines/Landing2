@@ -1,0 +1,16 @@
+.header {
+  // padding: 19px 8.125%;
+  width: 100%;
+  display: flex;
+  //flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+@import './__logo/header__logo.scss';
+@import '../menu/menu.scss';
+@import '../social/social.scss';
+@import '../getStarted/getStarted.scss';
+@import './__menu/header__menu.scss';
+@import './__social/header__social.scss';
+@import './__getStarted/header__getStarted.scss';

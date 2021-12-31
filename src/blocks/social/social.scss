@@ -1,0 +1,10 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  flex-basis: 162px;
+  margin: 0 -5px;
+}
+
+@import './__item/social__item.scss';

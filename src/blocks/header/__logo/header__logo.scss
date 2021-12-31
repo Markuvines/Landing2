@@ -1,0 +1,7 @@
+$width :5.069444444444444%;
+.header__logo {
+  margin-right:$width;
+  @media (max-width:940px) {
+  margin-right: calc($width/2);
+  }
+}

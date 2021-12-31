@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  flex-basis: 427px;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0 -5px;
+  line-height: 15px;
+}
+
+@import './__item/menu__item.scss';
