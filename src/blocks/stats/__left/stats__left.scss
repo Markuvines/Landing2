@@ -1,0 +1,31 @@
+.stats__left {
+  padding-top: 70px;
+  padding-right: 90px;
+  padding-left: 370px;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+  text-align: right;
+
+  .persent {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 83px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+  }
+  .text {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+}

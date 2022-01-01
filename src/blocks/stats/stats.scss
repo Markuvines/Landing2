@@ -1,0 +1,7 @@
+.stats {
+  height: 342px;
+  display: flex;
+}
+
+@import './__left/stats__left.scss';
+@import './__right/stats__right.scss';

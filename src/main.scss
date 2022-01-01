@@ -26,12 +26,6 @@ html {
 .first {
   background-color: #F4F7FF;
 }
-.productivity {
-  background: red;
- img {
-  vertical-align: middle;;
- }
-}
 .slick-track, .slick-list {
   height: 100%
 }
@@ -54,7 +48,7 @@ html {
     background: #5283FF;
   }
 }
-//@import './blocks/reset.scss';
+
 @import './blocks/header/header.scss';
 @import './blocks/line/line.scss';
 @import './blocks/customers/customers.scss';
@@ -62,3 +56,4 @@ html {
 @import './blocks/planAndManage/planAndManage.scss';
 @import './blocks/feature/feature.scss';
 @import './blocks/aboutUs/aboutUs.scss';
+@import './blocks/stats/stats.scss';
