@@ -19,8 +19,26 @@ html {
     }
   }
   &__slider {
-   // padding-top: 92px;
     height: 570px;
+    .slick-dots {
+      position: absolute;
+      left: calc(50% - 24px);
+      bottom: 40px;
+      display: flex;
+      font-size: 0;
+      width: 48px;
+      justify-content: space-between;
+      li {
+        width: 8px;
+        height: 8px;
+        //border: solid 1px black;
+        border-radius: 50%;
+        background: #D1D6E3;
+      }
+      .slick-active {
+        background: #5283FF;
+      }
+    }
   }
 }
 .first {
@@ -30,17 +48,16 @@ html {
   height: 100%
 }
 .slick-dots {
-  position: absolute;
-  left: calc(50% - 24px);
-  bottom: 40px;
+  //position: absolute;
+  //left: calc(50% - 24px);
+  //bottom: 40px;
   display: flex;
   font-size: 0;
-  width: 48px;
+  //width: 48px;
   justify-content: space-between;
   li {
     width: 8px;
     height: 8px;
-    //border: solid 1px black;
     border-radius: 50%;
     background: #D1D6E3;
   }
@@ -57,3 +74,4 @@ html {
 @import './blocks/feature/feature.scss';
 @import './blocks/aboutUs/aboutUs.scss';
 @import './blocks/stats/stats.scss';
+@import './blocks/blog/blog.scss';

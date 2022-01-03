@@ -1,0 +1,57 @@
+.blog {
+  padding: 104px 143px;
+  background: #F5F8FF;
+
+  @import './__content/blog__content.scss';
+  @import './__title/blog__title.scss';
+  @import './__subtitle/blog__subtitle.scss';
+  @import './__slide1/blog__slide1.scss';
+  @import './__slide2/blog__slide2.scss';
+  @import './__slide3/blog__slide3.scss';
+  @import './__sliderContent/blog__sliderContent.scss';
+  @import './__slideFirstColomn/blog__slideFirstColomn.scss';
+  @import './__slideSecondColomn/blog__slideSecondColomn.scss';
+  @import './__slideFirstImage/blog__slideFirstImage.scss';
+  @import './__slideSecondImage/blog____slideSecondImage.scss';
+  @import './__slideTitle/blog__slideTitle.scss';
+  @import './__slideText/blog__slideText.scss';
+  @import './__slideButtons/blog__slideButtons.scss';
+  @import './__slideFirstButton/blog__slideFirstButton.scss';
+  @import './__slideSecondButton/blog__slideSecondButton.scss';
+
+  .slick {
+    &-dots {
+    width: 48px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 24px);
+    }
+
+    &-list {
+      margin: 0 auto;
+      width: 958px;
+      border: 1px solid #D8E3FE;
+    }
+
+    &-slider {
+      position: static;
+    }
+
+    &-arrow {
+      width: 27px;
+      height: 19px;
+      position: absolute;
+      top: 50%;
+      font-size: 0;
+    }
+
+    &-next {
+      right: 0;
+      background: url('./img/blog/RightArrow.svg') 0 0 no-repeat;
+    }
+
+    &-prev {
+      background: url('./img/blog/LeftArrow.svg') 0 0 no-repeat;
+    }
+  }
+}

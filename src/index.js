@@ -5,6 +5,10 @@ $(document).ready(function(){
     dots: true,
     autoplaySpeed: 1000,
   });
+  $('.blog__slider').slick({
+    arrows: true,
+    dots: true,
+  });
 });
 $('.slider__button').on('click', function() {
  $('.slider__track').slick('slickPlay')
