@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  $('.slider__track').slick({
+  $('.productivity__slider').slick({
     arrows: false,
     dots: true,
     autoplaySpeed: 1000,
@@ -90,7 +90,7 @@ $(window).on('resize', function() {
 });
 
 });
-$('.slider__button').on('click', function() {
- $('.slider__track').slick('slickPlay')
+$('.productivity__button').on('click', function() {
+ $('.productivity__slider').slick('slickPlay')
 })
 console.log('sdjfkdsjfksd');

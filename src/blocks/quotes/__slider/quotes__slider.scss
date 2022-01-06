@@ -16,6 +16,7 @@
     transition: all .5s ease;
   }
   .slick-dots {
+    position: absolute;
     bottom: 0;
     left: calc(25%);
     li:not(:last-child) {

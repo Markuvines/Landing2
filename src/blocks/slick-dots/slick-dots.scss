@@ -1,0 +1,19 @@
+.slick-dots {
+  display: flex;
+  font-size: 0;
+
+  li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #D1D6E3;
+  }
+
+  li:not(:last-child) {
+    margin-right: 12px;
+  }
+  
+  .slick-active {
+    background: #5283FF;
+  }
+}

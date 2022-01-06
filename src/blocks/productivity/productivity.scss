@@ -1,0 +1,28 @@
+.productivity {
+  position: relative;
+
+  strong {
+    font-weight: 500;
+  }
+
+  .slick-dots {
+    position: absolute;
+    left: calc(50% - 24px);
+    bottom: 40px;
+  }
+
+  .slick-track, .slick-list {
+    height: 100%
+  }
+
+  @import './__title/productivity__title.scss';
+  @import './__subtitle/productivity__subtitle.scss';
+  @import './__text/productivity__text.scss';
+  @import './__button/productivity__button.scss';
+  @import './__play/productivity__play.scss';
+  @import './__clouds/productivity__clouds.scss';
+  @import './__slider/productivity__slider.scss';
+  @import './__slide1/productivity__slide1.scss';
+  @import './__slide2/productivity__slide2.scss';
+  @import './__slide3/productivity__slide3.scss';
+}
