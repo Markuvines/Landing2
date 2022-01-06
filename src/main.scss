@@ -6,6 +6,7 @@ html {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
   &__header {
     padding: 19px 0;
     @media (max-width: 1200px) {
@@ -40,6 +41,10 @@ html {
       }
     }
   }
+
+  &__quotes {
+    padding: 109px 0 109px 276px;
+  }
 }
 .first {
   background-color: #F4F7FF;
@@ -48,13 +53,13 @@ html {
   height: 100%
 }
 .slick-dots {
-  //position: absolute;
+  position: absolute;
   //left: calc(50% - 24px);
   //bottom: 40px;
   display: flex;
   font-size: 0;
   //width: 48px;
-  justify-content: space-between;
+ justify-content: space-between;
   li {
     width: 8px;
     height: 8px;
@@ -75,3 +80,4 @@ html {
 @import './blocks/aboutUs/aboutUs.scss';
 @import './blocks/stats/stats.scss';
 @import './blocks/blog/blog.scss';
+@import './blocks/quotes/quotes.scss';

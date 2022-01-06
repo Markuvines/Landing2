@@ -1,0 +1,15 @@
+
+.quotes {
+  background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+
+  @import './__container/quotes__container.scss';
+  @import './__description/quotes__description.scss';
+  @import './__title/quotes__title.scss';
+  @import './__subtitle/quotes__subtitle.scss';
+  @import './__text/quotes__text.scss';
+  @import './__slider/quotes__slider.scss';
+  @import './__slide/quotes__slide.scss';
+  @import './__slideContainer/quotes__slideContainer.scss';
+  @import './__slideText/quotes__slideText.scss';
+  @import './__image/quotes__image.scss';
+}
