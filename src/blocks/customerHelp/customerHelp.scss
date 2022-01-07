@@ -1,0 +1,27 @@
+.customerHelp {
+ // height: 700px; //delete when block will be ready
+  background: white;
+  &__title {
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3D4F9F;
+  }
+  &__subtitle {
+    margin-bottom: 68px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D4F9F;
+  }
+}
+@import '../helpListItem/helpListItem.scss';

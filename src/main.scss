@@ -3,6 +3,10 @@ html {
   background: #E4E6F0;
 //  letter-spacing: 0.05em;
 }
+// .tecContainer {
+//   max-width: 1440px;
+//   margin: 0 auto;
+// }
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -26,6 +30,10 @@ html {
   &__quotes {
     padding: 109px 0 109px 276px;
   }
+
+  &__customerHelp {
+    padding: 175px 349px
+  }
 }
 
 @import './blocks/header/header.scss';
@@ -39,3 +47,4 @@ html {
 @import './blocks/stats/stats.scss';
 @import './blocks/blog/blog.scss';
 @import './blocks/quotes/quotes.scss';
+@import './blocks/customerHelp/customerHelp.scss';
