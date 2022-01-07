@@ -92,5 +92,13 @@ $(window).on('resize', function() {
 });
 $('.productivity__button').on('click', function() {
  $('.productivity__slider').slick('slickPlay')
+});
+$('.helpListItem__title ').on('click', function() {
+  
+  $(this).next('.helpListItem__dropdownTecContainer').animate({
+    height: 'toggle'
+  },500,function() {
+  });
+  $(this).closest('.helpListItem').toggleClass('helpListItem--active');
 })
 console.log('sdjfkdsjfksd');

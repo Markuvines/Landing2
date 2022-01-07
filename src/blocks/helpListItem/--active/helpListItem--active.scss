@@ -1,0 +1,13 @@
+.helpListItem--active {
+  .helpListItem__icon {
+    transition: all .5s ease;
+    transform: rotate(180deg);
+    path {
+      stroke: #495274;
+    }
+  }
+  .helpListItem__question {
+    font-weight: bold;
+    color: #495274;
+  }
+}
