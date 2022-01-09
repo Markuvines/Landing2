@@ -47,6 +47,9 @@ html {
   &__newsLetter {
     padding: 119px 10px
   }
+  &__footer {
+    padding: 93px 0
+  }
 }
 
 @import './blocks/header/header.scss';
@@ -63,3 +66,4 @@ html {
 @import './blocks/customerHelp/customerHelp.scss';
 @import './blocks/planYourLife/planYourLife.scss';
 @import './blocks/newsLetter/newsLetter.scss';
+@import './blocks/footer/footer.scss';
