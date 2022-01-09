@@ -44,6 +44,9 @@ html {
   &__customerHelp {
     padding: 175px 349px
   }
+  &__newsLetter {
+    padding: 119px 10px
+  }
 }
 
 @import './blocks/header/header.scss';
@@ -59,3 +62,4 @@ html {
 @import './blocks/quotes/quotes.scss';
 @import './blocks/customerHelp/customerHelp.scss';
 @import './blocks/planYourLife/planYourLife.scss';
+@import './blocks/newsLetter/newsLetter.scss';

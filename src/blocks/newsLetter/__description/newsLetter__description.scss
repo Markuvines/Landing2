@@ -1,0 +1,8 @@
+&__description {
+  margin-right: 80px;
+  flex: 0 0 330px;
+  @media(max-width: 950px) {
+    margin-right: 0px;
+    flex: 0 1 330px;
+  }
+}

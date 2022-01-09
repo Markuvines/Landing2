@@ -1,0 +1,11 @@
+.newsLetter {
+  background: #FCFDFF;
+
+  @import './__content/newsLetter__content.scss';
+  @import './__description/newsLetter__description.scss';
+  @import './__title/newsLetter__title.scss';
+  @import './__text/newsLetter__text.scss';
+  @import './__form/newsLetter__form.scss';
+  @import './__input/newsLetter__input.scss';
+  @import './__formButton/newsLetter__formButton.scss';
+}
